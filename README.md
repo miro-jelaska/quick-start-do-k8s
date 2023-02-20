@@ -18,7 +18,7 @@ To run the DAG locally using Docker or to deploy it to DigitalOcean, you'll need
 4. Docker with Docker Compose
 5. Torque CLI
 
-For the installation details visit [Quick Start Guide - Runing Locally](https://docs.torque.cloud/quick-start/running-locally) or [Quick Start Guide - Deploying to DigitalOcean](https://docs.torque.cloud/quick-start/deploying-to-digitalocean).
+For the installation details visit [Quick Start Guide - Runing Locally](https://docs.torque.cloud/quick-start/running-locally) or [Quick Start Guide - Deploying to DigitalOcean](https://docs.torque.cloud/quick-start/deploying-to-do).
 
 
 ### 2. DigitalOcean Account and Personal Access Token
@@ -28,7 +28,7 @@ To deploy the DAG to the DigitalOcean, you have to take care of a few things. Th
 1. You need a DigitalOcean account.
 2. You need to obtain a DigitalOcean Personal Access Token with read and write scopes. The Personal Access Token will be used for the `DO_TOKEN` environment variable used by the Torque CLI.
 
-For recommendations and instructions visit [Quick Start Guide - Deploying to DigitalOcean](https://docs.torque.cloud/quick-start/deploying-to-digitalocean).
+For recommendations and instructions visit [Quick Start Guide - Deploying to DigitalOcean](https://docs.torque.cloud/quick-start/deploying-to-do).
 
 ## Run locally
 
@@ -63,11 +63,9 @@ The output should be the current database time.
 Database time: 2023-01-09T10:49:30.536818Z%
 ```
 
-
-
 ## Deployment to DigitalOcean
 
-This section provides overview of the steps required to deploy workspace to DigitalOcean. For detailed instructions visit: [Quick Start Guide - Deploying to DigitalOcean](https://docs.torque.cloud/quick-start/deploying-to-digitalocean).
+This section provides overview of the steps required to deploy workspace to DigitalOcean. For detailed instructions visit: [Quick Start Guide - Deploying to DigitalOcean](https://docs.torque.cloud/quick-start/deploying-to-do).
 
 **⚠️ Important:**
 Before proceeding to the deployment instructions make sure you have prerequisites satisfied. For the following commands to work, you need to have Docker installed and running on your laptop.
